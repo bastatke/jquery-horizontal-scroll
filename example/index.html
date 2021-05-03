@@ -595,22 +595,21 @@
       
 <!--CLOSING-->
 <!-- PARAGRAPH 4-->
+      
+      <img src="../assets/clouds/Clouds_03.png" class="img-fluid" alt="Picture of a desk">  
+      
+      
        <div class="row justify-content-center mt-5">
         <div class="col-12 col-sm-8 col-md-6">
             
-            <h5 class="white">I want to go home,but home is the mouth of a shark, home is the barrel of the gun.</h5>
+            <img src="../assets/cloud-bg.png" class="img-fluid" alt="Picture of a desk">  
             
-            <h5 class="white"> No one leaves home until home is a sweaty voice in your ear
-                  saying-
-                  leave,
-                  run away from me now
-                  i dont know what i’ve become
-                  but i know that anywhere
-                is safer than here. <cite> -Warshan Shire</cite></h5> 
+            <h4 class="white pt-5">i want to go home,<br>but home is the mouth of a shark <br>home is the barrel of the gun...<br>no one leaves home until home is a sweaty voice in your ear<br>  saying-<br>leave,<br>run away from me now<br>i dont know what i’ve become<br>             but i know that anywhere <br>is safer than here. <cite> -Warshan Shire</cite></h4> 
             
                 
         </div><!-- close columns -->
-      </div>       
+      </div>    
+    
       
 <!--      <div class="row justify-content-center">
         <div class="col-8">
@@ -624,7 +623,7 @@
       <!--Carousel example -->
             
             
-    <div class="row justify-content-center mt-5">
+   <!-- <div class="row justify-content-center mt-5">
         <div class="col-12 col-sm-8 col-md-6"> 
     
             
@@ -670,22 +669,131 @@
            
       </div>
     </div>
+      -->
+      
+ <div class="cloud" id="cloud-base"></div>
+    <div class="cloud" id="cloud-back"></div>
+    <div class="cloud" id="cloud-mid"></div>
+    <div class="cloud" id="cloud-front"></div>
+    
+      <svg width="0" height="0"> 
+        <!--Top Layer-->
+        <filter id="filter-base">
+          <feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="5" 
+            seed="8517" />     
+          <feDisplacementMap  in="SourceGraphic" scale="120" />
+        </filter>
+               
+          
+        <filter id="filter-back">
+           <feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="3" 
+            seed="8517" />     
+           <feDisplacementMap  in="SourceGraphic" scale="120" />
+        </filter>
+             
+          
+        <filter id="filter-mid">
+           <feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="3"
+            seed="8517"/>
+            <feDisplacementMap  in="SourceGraphic" scale="120" />
+        </filter>
+                
+          
+        <filter id="filter-front">
+            <feTurbulence type="fractalNoise" baseFrequency="0.009" numOctaves="4" seed="8517"/>
+            <feDisplacementMap  in="SourceGraphic" scale="50" />
+        </filter>
+
+      </svg>
+        
+      
+<!-- CLOUD 1-->
+        
+    <div class="row justify-content-center mt-5">
+    <div class="col-12 col-sm-8 col-md-6 position-relative">    
+         <div id="cloud-circle3">
+          <svg width="0" height="0"> 
+            <filter id="filter">
+              <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="10" />
+              <feDisplacementMap in="SourceGraphic" scale="180" />
+            </filter>
+        </svg>
+      </div>
+    </div><!-- close columns -->
+    </div><!-- close row -->
+
+ <!-- CLOUD 1-->
+        
+    <div class="row justify-content-center mt-5">
+    <div class="col-12 col-sm-8 col-md-6 position-relative">    
+         <div id="cloud-circle">
+          <svg width="0" height="0"> 
+            <filter id="filter">
+              <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="10" />
+              <feDisplacementMap in="SourceGraphic" scale="180" />
+            </filter>
+        </svg>
+      </div>
+    </div><!-- close columns -->
+    </div><!-- close row -->
+    
+
+      
+
+     <img src="../assets/clouds/Clouds_03.png" class="img-fluid" alt="Picture of a desk"> 
       
       
 <!--SHORTEN this section / make more dynamic-->
       <div class="row justify-content-center mt-5">
         <div class="col-12 col-sm-8 col-md-6">   
-        
-            <p class="white">“Refugees have been deprived of their homes, but they must not be deprived of their futures.” said UN Secretary-General Ban Ki-moon Home is human right. Migration is not a new or phenomenonal or a crisis. Rather, what is always changing is how we perceive migration and the people displaced. After World War II, many homes were built for those who had been displaced due to the war. Ultimately, lines drawn on a map only dictate the very lives we live when we choose to let them.</p>
+           
+           <!-- <p class="white">“Refugees have been deprived of their homes, but they must not be deprived of their futures.” said UN Secretary-General Ban Ki-moon Home is human right. Migration is not a new or phenomenonal or a crisis. Rather, what is always changing is how we perceive migration and the people displaced. After World War II, many homes were built for those who had been displaced due to the war. Ultimately, lines drawn on a map only dictate the very lives we live when we choose to let them.</p>-->
             
-            <p class="white">Anne Frank once wrote that “Dead people receive more flowers than the living ones, because regret is stronger than gratitude.” Through the many stories told here maybe we too can do more than just collecting blue.</p>
+            <p class="white">Home is a human right. Migration is not new. Rather, it is the always changing perceptions of migration and the people displaced. For example, after World War II, many homes were built across the world for those who had been displaced</p>
+
+<!--CAPTION FOR CAROUSEL -->     
+           <!-- <p> Here are some data visualizations of the Missing Migrants Project, led by the International Organization of Migration to track incdents involving migrants, especially missing persons and deaths.</p>-->
+            
+            <!--<h4 class="white">Anne Frank once wrote that “Dead people receive more flowers than the living, because regret is stronger than gratitude.” Through the many stories told here maybe we too can do more than just collecting blue.</h4>-->
+            
+             <h4 class="white mt-5 p-5">Anne Frank wrote, “Dead people receive more flowers than the living, because regret is stronger than gratitude.”</h4>
+            
+            <p class="white p-5"> Through the many stories told here maybe we too can do more than just collecting <strong class="blue2">blue</strong></p>
              
-            <h5 class="white">I want you to know, if you ever read this, there was a time when I would rather have had you by my side than any one of these words; I would rather have had you by my side than all the <strong class="blue2">blue</strong> in the world.</h5>
+        
+            
+            <img src="../assets/cloud-bg.png" class="img-fluid" alt="Picture of a desk">  
+            
+              <div class="col-12 col-sm-8 col-md-6 position-relative">    
+                 <div id="cloud-circle">
+                  <svg width="0" height="0"> 
+                    <filter id="filter">
+                      <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="10" />
+                      <feDisplacementMap in="SourceGraphic" scale="180" />
+                    </filter>
+                </svg>
+              </div>
+            </div>
+            
+            <div class="col-12 col-sm-8 col-md-6 position-relative">    
+                 <div id="cloud-circle3">
+                  <svg width="0" height="0"> 
+                    <filter id="filter">
+                      <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="10" />
+                      <feDisplacementMap in="SourceGraphic" scale="180" />
+                    </filter>
+                </svg>
+              </div>
+            </div>
             
             <h5 class="white">I want you to know, if you ever read this, there was a time when I would rather have had you by my side than any one of these words; I would rather have had you by my side than all the <strong class="blue2">blue</strong> in the world.</h5>
+            
+            <!--<h5 class="white">I want you to know, if you ever read this, there was a time when I would rather have had you by my side than any one of these words; I would rather have had you by my side than all the <strong class="blue2">blue</strong> in the world.</h5>-->
       
       </div>
       </div>
+      
+      
     
     <footer class="my-5 text-center">
       <p>Website by Rebecca Hailu.</p>
