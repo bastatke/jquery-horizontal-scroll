@@ -1,14 +1,16 @@
 @import url(bootstrap.min.css);
 @import url(../fonts/fonts.css);
 
+/*
 html,body{
   overflow-x: hidden;
 }
+*/
 
 
 /* fonts */
 body{
-	font-family: Inconsolata, Didot, Baskerville, monospace;
+	font-family:Magnum Sans Pro Bold, Baskerville, monospace;
 	color:  #1D2951;
     font-size: 25px;
     background: rgb(235,241,247);
@@ -16,7 +18,15 @@ body{
     padding: 1%;
 }
 
-h1, h2, h3{
+h1{
+	font-family: Baskerville, serif;
+    font-size: 40px;
+    font-weight: 150;
+    /*color:  #6495ED;*/
+    color:floralwhite;
+}
+
+h2, h3{
 	font-family: Magnum Sans, Baskerville, serif;
     font-size: 40px;
     font-weight: 150;
@@ -27,10 +37,10 @@ h4{
 	font-family: Magnum Sans, Baskerville, serif;
     font-size: 30px;
     font-weight: 150;
-    color: midnightblue;
+    color:midnightblue;
 }
 h5{
-	font-family: Magnum Sans, Baskerville, serif;
+	font-family: Inconsolatas, Magnum Sans, Baskerville, serif;
     font-size: 60px;
     font-weight: 150;
     color: lightskyblue;
@@ -55,9 +65,9 @@ h6{
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
-  color: cornflowerblue;
+  color: floralwhite;
   position: relative;
-  font-family: Baskerville, sans-serif;
+  font-family: Didot, Baskerville, sans-serif;
   background-color: rgba(0,0,0,0.5);
 }
 .hero header{
@@ -96,7 +106,7 @@ h6{
 
 /* Sticky graphic */
 .scroll-graphic{
-  background-color:#000;
+/*  background-color:#000;*/
   z-index: -2;
 }
 
@@ -142,6 +152,30 @@ section cite{
 
 .white{
     color :whitesmoke;
+}
+
+.white2{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight:500;
+    font-family: inherit, monospace;
+    text-shadow: 1px 1px 2px black;/*
+ font-size: 80px;
+  color: #fff;
+*/
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #5e84b5, 0 0 40px #5e84b5, 0 0 50px #5e84b5, 0 0 60px #5e84b5, 0 0 70px #5e84b5;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #7c99bf, 0 0 40px #7c99bf, 0 0 50px #7c99bf, 0 0 60px #7c99bf, 0 0 70px #7c99bf, 0 0 80px #7c99bf;
+  }
 }
 
 .scroll_text{
@@ -276,3 +310,12 @@ cloud {
     left: -870px;
 }
 
+#container{
+/* background-color: #eee;*/
+/*padding: 10px;*/
+width:100%;
+max-width:1300px;
+margin-left: auto;
+margin-right: auto;
+/*border: 1px outset lightgray*/;
+}
